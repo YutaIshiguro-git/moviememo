@@ -1,6 +1,6 @@
 # movieMemo #
 
-<div style="text-align: center; font-size:20px;">
+<div style="text-align: center;>
 movieMemo
 </div>
 
