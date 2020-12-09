@@ -1,8 +1,5 @@
-# movieMemo #
 
-<div style="text-align: center;>
-movieMemo
-</div>
+<div style="text-align: center;> movieMemo </div>
 
 movieMemo is full stack application to save data (memo and YouTube URL) on server.
 Then, call data and shows up on the brower.
