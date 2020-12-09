@@ -1,4 +1,13 @@
+<div align="center">
+<img width="239" alt="logo" align="center" src="https://user-images.githubusercontent.com/66049678/101280066-4138c500-380a-11eb-94a6-9431ef1433b7.png"> 
+![logo_circle_transparent](https://user-images.githubusercontent.com/66049678/101590328-8983fd00-3a2d-11eb-9e0b-acd31bd5d9b5.png)
+ ![logo_title_transparent](https://user-images.githubusercontent.com/66049678/101590300-7b35e100-3a2d-11eb-866f-162dc355c53a.png)
 
+# movieMemo #
+
+![img](https://lh3.googleusercontent.com/yu5tlaXYPrzVndf75hIJZocqrISVDOx5S2m6oPt43r7N3EZAjF0CFQYE4pudcqB6qhC-eEzEy_Mit4VAi5sXqIPTgchh1wABDYUA6ZSActOgzciBMtLROFKUdEOrDI-UFbJ-OsRL)
+
+</div>
 <div style="text-align: center;> movieMemo </div>
 
 movieMemo is full stack application to save data (memo and YouTube URL) on server.
