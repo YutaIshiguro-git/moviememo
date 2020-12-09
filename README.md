@@ -31,8 +31,11 @@ Javascript, Knex, express, node, PostgreSQL, axios
 <img src="https://user-images.githubusercontent.com/66049678/101591932-c271a100-3a30-11eb-908f-52091f832e1d.png">
 
 # 3.How to use
-<img src="https://user-images.githubusercontent.com/66049678/101593792-e682b180-3a33-11eb-90c9-701ac2dc7fc3.gif">
 <img src="https://user-images.githubusercontent.com/66049678/101592897-5db74600-3a32-11eb-8ae9-b4cce5f06560.png">
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/66049678/101593792-e682b180-3a33-11eb-90c9-701ac2dc7fc3.gif">
+</div>
 
 # 4. Install #
 Runs the app in the development mode.\
