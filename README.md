@@ -17,49 +17,37 @@ movieMemo calls data and shows up on the brower.
 # Install #
 Runs the app in the development mode.\
 
- ## Setup Database
+ ## 1.Setup Database
 
  use following commands on the shell to setup database.
 
-  ### migration
+  ### 1-1.migration
   yarn knex migrate:latest
 
-  ### Seeding
+  ### 1-2.Seeding
   yarn run knex seed:run
 
- ## Run application
+ ## 2.Run application
 
  use following commds to connect database and run application
  ('yarn standy', then 'yarn start')
 
-  ### `yarn standby`
+  ### 2-1.`yarn standby`
 
   Runs nodemon to connect to database.\
 
-  ### `yarn start`
+  ### 2-2.`yarn start`
 
   Runs React application. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode.
+When 'yarn start' executed, automatically [http://localhost:3000](http://localhost:3000) will be appeared in the browser.
+Proxy will point Front-end connection to [http://localhost:9000].
 
 
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License ##
+License for the code**<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
+**License for the banner image\*\*<Attribution> banner image<a href='https://www.freepik.com/vectors/banner'>Banner vector created by vectorpouch - www.freepik.com</a>
 
 ## Learn More
 
