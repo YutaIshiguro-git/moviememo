@@ -35,8 +35,8 @@ Javascript, Knex, express, node, PostgreSQL, axios
 <div>
 <img src="https://user-images.githubusercontent.com/66049678/101593792-e682b180-3a33-11eb-90c9-701ac2dc7fc3.gif">
 </div>
-Input new collection: Input memo and YouTube URL, then push.
-Remove collection: Press remove button of target collection.
+### Input new collection: Input memo and YouTube URL, then push.
+### Remove collection: Press remove button of target collection.
 
 # 4. Install #
 Runs the app in the development mode.\
