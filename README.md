@@ -19,7 +19,7 @@ movieMemo calls data and shows up on the brower.
 4. Install
 5. Solution
 	5-1. Input/Submit
-	5-2. Delete collection
+	5-2. Remove collection
 	5-3. List collections
 6. License
 ```
@@ -66,12 +66,14 @@ Proxy will point Front-end connection to [http://localhost:9000].
 
 # 5 Solutions
 
-## 5-1.
+## 5-1. Input/Submit
+Input.jsx controlls Input form and memorize button. When memorize button is pressed, POST method runs to insert new memo and URL data into database.
 
-## 5-2.
+## 5-2. Remove
+Remove button has id data which is same as id saved in database as primary key. When Remove key is pressed, DELETE method runs to delete data from database.
 
-## 5-3.
-
+## 5-3. List Collections
+body.jsx controls the entire view of movie collections. body.jsx passes props to input.jsx and delete.jsx to control reload timing of view.
 
 # License #
 License for the code**<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
