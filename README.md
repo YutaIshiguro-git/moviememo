@@ -9,7 +9,7 @@
  </div>
 
 
-movieMemo is full stack application to save data (memo and YouTube URL) on server.
+movieMemo is application to save data (memo and YouTube URL) on server.
 movieMemo calls data and shows up on the brower.
 
 ```
