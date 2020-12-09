@@ -10,11 +10,66 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    width:150px;
+    height:150px;
   }
 }
 
+.App-logo-title {
+  padding: 15px 15px;
+  width:200px;
+  height:auto;
+}
+
+button{
+  padding:10px;
+   display:inline-block;
+   border: none;
+   background:#84599D;
+   color:#fff;
+   border-radius:5px;
+   text-decoration:none;
+   line-height:0;
+}
+
+.button-title{
+  padding:7px;
+  display:inline-block;
+  border: none;
+  background:#84599D;
+  color:#fff;
+  border-radius:5px;
+  text-decoration:none;
+  line-height:0;
+  height:23px;
+}
+
+.button-container{
+  padding:7px 0px;
+  align-items: center;
+}
+
+input{
+  width: 220px;
+  margin-right: 3px;
+}
+
+.movieCell-header{
+  display: flex;
+  width: 560px;
+  height: 40px;
+}
+
+.titleCell{
+  padding: 10px;
+}
+
+.input-form{
+  padding: 0px 0px 30px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,101,133,1) 0%, rgba(255,211,165,1) 90% );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
