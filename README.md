@@ -17,25 +17,28 @@ movieMemo calls data and shows up on the brower.
 # Install #
 Runs the app in the development mode.\
 
-## Setup Database
+ ## Setup Database
 
-use following commands on the shell to setup database.
+ use following commands on the shell to setup database.
 
-### migration
-yarn knex migrate:latest
+  ### migration
+  yarn knex migrate:latest
 
-### Seeding
-yarn run knex seed:run
+  ### Seeding
+  yarn run knex seed:run
 
-## Run application
+ ## Run application
 
-use following commds to connect database and run application
+ use following commds to connect database and run application
+ ('yarn standy', then 'yarn start')
 
-### `yarn standby`
+  ### `yarn standby`
 
-Runs nodemon to connect to database.\
+  Runs nodemon to connect to database.\
 
-### `yarn start`
+  ### `yarn start`
+
+  Runs React application. 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
