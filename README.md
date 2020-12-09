@@ -31,7 +31,7 @@ Javascript, Knex, express, node, PostgreSQL, axios
 <img src="https://user-images.githubusercontent.com/66049678/101591932-c271a100-3a30-11eb-908f-52091f832e1d.png">
 
 # 3.How to use
-
+<img src="https://user-images.githubusercontent.com/66049678/101593792-e682b180-3a33-11eb-90c9-701ac2dc7fc3.gif">
 <img src="https://user-images.githubusercontent.com/66049678/101592897-5db74600-3a32-11eb-8ae9-b4cce5f06560.png">
 
 # 4. Install #
@@ -75,6 +75,6 @@ Remove button has id data which is same as id saved in database as primary key. 
 ## 5-3. List Collections
 body.jsx controls the entire view of movie collections. body.jsx passes props to input.jsx and delete.jsx to control reload timing of view.
 
-# License #
+# 6 License #
 License for the code**<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
 **License for the banner image\*\*<Attribution> banner image<a href='https://www.freepik.com/vectors/banner'>Banner vector created by vectorpouch - www.freepik.com</a>
