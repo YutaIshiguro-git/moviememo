@@ -4,7 +4,6 @@
 <div align="center">
  <img align="center" src="https://user-images.githubusercontent.com/66049678/101590300-7b35e100-3a2d-11eb-866f-162dc355c53a.png" width="200" >
 </div>
-<div style="text-align: center;> movieMemo </div>
 
 movieMemo is full stack application to save data (memo and YouTube URL) on server.
 Then, call data and shows up on the brower.
