@@ -18,9 +18,9 @@ movieMemo calls data and shows up on the brower.
 3. How to use
 4. Install
 5. Solution
-	5-1. Map
-	5-2. Select button
-	5-3. List
+	5-1. Input/Submit
+	5-2. Delete collection
+	5-3. List collections
 6. License
 ```
 # 1. Dependencies#
@@ -30,35 +30,47 @@ Javascript, Knex, express, node, PostgreSQL, axios
 
 <img src="https://user-images.githubusercontent.com/66049678/101591932-c271a100-3a30-11eb-908f-52091f832e1d.png">
 
-# 3. Install #
+# 3.How to use
+
+<img src="https://user-images.githubusercontent.com/66049678/101592897-5db74600-3a32-11eb-8ae9-b4cce5f06560.png">
+
+# 4. Install #
 Runs the app in the development mode.\
 
- ## 1.Setup Database
+ ## 4-1.Setup Database
 
  use following commands on the shell to setup database.
 
-  ### 1-1.migration
+  ### 4-1-1.migration
   yarn knex migrate:latest
 
-  ### 1-2.Seeding
+  ### 4-1-2.Seeding
   yarn run knex seed:run
 
- ## 2.Run application
+ ## 4-2.Run application
 
  use following commds to connect database and run application
  ('yarn standy', then 'yarn start')
 
-  ### 2-1.`yarn standby`
+  ### 4-2-1.`yarn standby`
 
   Runs nodemon to connect to database.\
 
-  ### 2-2.`yarn start`
+  ### 4-2-2.`yarn start`
 
   Runs React application. 
 
 Runs the app in the development mode.
 When 'yarn start' executed, automatically [http://localhost:3000](http://localhost:3000) will be appeared in the browser.
 Proxy will point Front-end connection to [http://localhost:9000].
+
+# 5 Solutions
+
+## 5-1.
+
+## 5-2.
+
+## 5-3.
 
 
 # License #
