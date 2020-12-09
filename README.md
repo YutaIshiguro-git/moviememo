@@ -4,16 +4,32 @@
 <div align="center">
  <img align="center" src="https://user-images.githubusercontent.com/66049678/101590300-7b35e100-3a2d-11eb-866f-162dc355c53a.png" width="200" >
 </div>
+<div align="center">
+ <img src ="https://user-images.githubusercontent.com/66049678/101590972-be448400-3a2e-11eb-9f5f-9a6854d76625.png" height="20">
+ </div>
+
 
 movieMemo is full stack application to save data (memo and YouTube URL) on server.
-Then, call data and shows up on the brower.
+movieMemo calls data and shows up on the brower.
 
-## Available Scripts
 
-In the project directory, you can run:
 
 # Install #
 Runs the app in the development mode.\
+
+## Setup Database
+
+use following commands on the shell to setup database.
+
+### migration
+yarn knex migrate:latest
+
+### Seeding
+yarn run knex seed:run
+
+## Run application
+
+use following commds to connect database and run application
 
 ### `yarn standby`
 
